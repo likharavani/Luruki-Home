@@ -1,0 +1,94 @@
+@media only screen and (max-width:780px)
+{
+    html{
+        font-size: 50%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .sec-row, .cloud-row, .clients{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    .forms{
+        position: relative;
+        
+
+    }
+
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .head1, .lists, .logos{
+        margin:2rem;
+    }
+#sec{
+    height:auto;
+}
+    .sec-col-1,
+    .sec-col-2,
+    .cli-col-1,
+    .cli-col-2,
+    .cloud-col-1,
+    .cloud-col-2
+    {
+        flex-basis: 100%;
+        width:100%;
+    }
+    .flexi{
+        flex-wrap: wrap;
+    }
+    .box1{
+        margin: 4rem auto;
+    }
+}
+
+@media only screen and (max-width:850px)
+{
+    html{
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width:950px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:1050px)
+{
+    html{
+        font-size: 58%;
+    }
+    .sec-row{
+        width:100%;
+    }
+}
+@media only screen and (max-width:1400px)
+{
+    html{
+        font-size: 50%;
+    }
+}@media only screen and (max-width:500px)
+{
+    html{
+        font-size: 45%;
+    }
+    .card , .box{
+        width:100%;
+        margin:2rem;
+    }
+    .card img{
+        width:40%;
+    }
+    .forms{
+        left:10rem;
+    }
+    
+}
