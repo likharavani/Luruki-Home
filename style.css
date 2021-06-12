@@ -126,9 +126,9 @@ transform: scale(0.98);
     position: relative;
     top:5rem;
     left:17rem;
-    width:50rem;
+    width:60%;
     overflow: hidden;
-    height:45rem;
+    height:45%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
     border-radius: 10px;
 }

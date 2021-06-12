@@ -16,7 +16,7 @@
     .forms{
         position: relative;
         
-
+left:14rem;
     }
 
     .foot{
@@ -66,14 +66,16 @@
     html{
         font-size: 58%;
     }
-    .sec-row{
-        width:100%;
-    }
+ 
+
 }
 @media only screen and (max-width:1400px)
 {
     html{
         font-size: 50%;
+    }
+    #sec{
+        height:45%;
     }
 }@media only screen and (max-width:500px)
 {
@@ -91,4 +93,8 @@
         left:10rem;
     }
     
+}
+@media only screen and (max-width:400px)
+{
+
 }
