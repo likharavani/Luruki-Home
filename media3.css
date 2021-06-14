@@ -50,6 +50,10 @@
    .navbar{
        flex-direction: column;
    }
+   .navbar ul{
+    background-color: rgb(78, 163, 219);
+    overflow:auto;
+}
   .server1-col-1,
   .server1-col-2,
   .cont1,

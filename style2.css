@@ -31,7 +31,7 @@ html{
 }
 .navbar ul li{
     list-style: none;
-    margin:1rem 1.5rem;
+    margin:2rem 1.5rem;
     transition: all 0.9s ease;
 }
 .navbar ul li a{
@@ -186,4 +186,7 @@ margin-top: 4rem;
     color:white;
     font-size: 2.7rem;
     margin:1rem;
+}
+.logos i:hover{
+    color:var(--primary);
 }
