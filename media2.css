@@ -1,0 +1,101 @@
+
+@media only screen and (max-width:950px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:1050px)
+{
+    html{
+        font-size: 58%;
+    }
+ 
+
+}
+@media only screen and (max-width:1400px)
+{
+    html{
+        font-size: 50%;
+    }
+    #sec{
+        height:45%;
+    }
+}@media only screen and (max-width:500px)
+{
+    html{
+        font-size: 45%;
+    }
+
+    
+}
+@media only screen and (max-width:700px)
+{
+   .navbar{
+       flex-direction: column;
+   }
+   .server1-col-1,
+   .server1-col-2,
+   .flex-col-1,
+   .flex-col-2{
+       flex-basis: 100%;
+       text-align: center;
+       width:100%;
+      padding: 2rem;
+       justify-content: center;
+       align-items: center;
+       
+   }
+   .server1{
+       flex-direction: column;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+   }
+   .flex-container,
+   .flex2{
+       flex-wrap: wrap;
+       justify-content: center;
+       width:100%;
+       align-items: center;
+   }
+   .flex1,
+   .flex2,
+   .flex2-col-1,
+   .flex2-col-2,
+   .flex-item{
+       width:100%;
+       flex-wrap: wrap;
+     
+       justify-content: center;
+      
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+       margin:2rem;
+   }
+   .flex2{
+       margin:0rem;
+       padding:2rem;
+   }
+   .icon,
+   .para,
+   .flex-icon,
+   .flex-para
+   {
+       width:100%;
+       text-align: center;
+   }
+   .flex2-col-1,
+   .flex2-col-2{
+       width:100%;
+       text-align: center;
+       margin: 1rem auto;
+   }
+   .foot{
+       flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+}
