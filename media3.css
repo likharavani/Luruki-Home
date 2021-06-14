@@ -1,0 +1,85 @@
+
+@media only screen and (max-width:950px)
+{
+    html{
+        font-size: 55%;
+    }
+  
+}
+@media only screen and (max-width:1050px)
+{
+    html{
+        font-size: 58%;
+    }
+  
+ 
+
+}
+@media only screen and (min-width:700px) and (max-width:1400px)
+{
+    html{
+        font-size: 50%;
+    }
+    .cont1{
+        height:fit-content;
+    }
+  
+}@media only screen and (max-width:500px)
+{
+    html{
+        font-size: 40%;
+    }   
+    .cont2 p{
+        font-size: 2rem;
+    }
+    .para {
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    html{
+        font-size: 45%;
+    }   
+}
+@media only screen and (max-width:700px)
+{
+    html{
+        font-size: 50%;
+    }
+   .navbar{
+       flex-direction: column;
+   }
+  .server1-col-1,
+  .server1-col-2,
+  .cont1,
+  .cont2{
+       flex-basis: 100%;
+       width:100%;
+      padding: 2rem;
+       justify-content: center;
+       align-items: center;
+       margin:2rem;
+       
+   }
+   .server1-col-1,
+   .server1-col-2,
+   .server1{
+       text-align: center;
+   }
+   .server1,
+   .container{
+       flex-direction: column;
+      
+       justify-content: center;
+       align-items: center;
+   }
+  
+  
+   .foot{
+       flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+}
