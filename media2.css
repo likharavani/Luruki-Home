@@ -73,12 +73,23 @@
        width:100%;
        align-items: center;
    }
+   .flex{
+       width:100%;
+     
+   }
+   .flex2-col-1 .icon,
+   .flex2-col-1 .para{
+       width:100%;
+       display: block;
+      
+   }
    .flex1,
    .flex2,
    .flex2-col-1,
    .flex2-col-2,
    .flex-item{
        width:100%;
+      
        flex-wrap: wrap;
      
        justify-content: center;
@@ -97,14 +108,16 @@
    .flex-icon,
    .flex-para
    {
+       display:block;
        width:100%;
-       text-align: center;
+              text-align: center;
    }
    .flex2-col-1,
    .flex2-col-2{
        width:100%;
        text-align: center;
        margin: 1rem auto;
+
    }
    .foot{
        flex-direction: column;
