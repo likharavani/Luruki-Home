@@ -60,6 +60,9 @@
        align-items: center;
        
    }
+   .server1-col-2 img{
+       width:40%;
+   }
    .server1{
        flex-direction: column;
        text-align: center;

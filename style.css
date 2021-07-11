@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+  
    
 }
 html{
@@ -50,6 +50,7 @@ html{
     background-color: var(--primary);
     color:white;
    height:70vh;
+   width:100%;
    position: relative;
     overflow: visible;
 }
@@ -70,7 +71,7 @@ html{
     justify-content: center;
     align-items: center;
     overflow: visible;
-    width:90%;
+    width:86%;
     padding:5rem 0rem;
     margin: auto;
     
@@ -78,7 +79,8 @@ html{
 
 .sec-col-1{
    
-    flex-basis: 50%;
+    flex-basis: 63%;
+   
 }
 .sec-col-1 h2{
     font-size: 4.5rem;
@@ -93,7 +95,8 @@ html{
     width:12rem;
 }
 .sec-col-2{
-    flex-basis: 50%;
+    flex-basis: 37%;
+  
     overflow: visible;
   
 }
@@ -124,11 +127,10 @@ transform: scale(0.98);
 .forms{
     background-color: white;
     color:black;
-    padding:4rem;
+    padding:4rem ;
     position: relative;
-    top:5rem;
-    left:17rem;
-    width:60%;
+  margin:auto;
+    width:85%;
     overflow: hidden;
     height:45%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
@@ -142,7 +144,7 @@ transform: scale(0.98);
     margin:2rem 0rem;
 }
 .number{
-    margin-top: 12rem;
+    margin-top: 9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

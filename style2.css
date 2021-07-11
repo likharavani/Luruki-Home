@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+   
    
 }
 html{
@@ -42,7 +42,7 @@ html{
    
 }
 .navbar ul li :hover{
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
 }
 .server1{
     background-color: var(--primary);
