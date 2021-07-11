@@ -44,6 +44,7 @@
    .navbar{
        flex-direction: column;
    }
+
    .navbar ul{
     background-color: rgb(78, 163, 219);
     overflow:auto;
