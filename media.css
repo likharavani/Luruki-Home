@@ -1,3 +1,22 @@
+@media only screen and (max-width:500px)
+{
+    html{
+        font-size: 45%;
+    }
+    .card , .box{
+        width:100%;
+        margin:2rem;
+    }
+    .card img{
+        width:40%;
+    }
+    .forms{
+        width:80%;
+        top:2rem;
+    }
+    
+    
+}
 @media only screen and (max-width:780px)
 {
     html{
@@ -95,26 +114,5 @@
     #sec{
         height:45%;
     }
-}@media only screen and (max-width:500px)
-{
-    html{
-        font-size: 45%;
-    }
-    .card , .box{
-        width:100%;
-        margin:2rem;
-    }
-    .card img{
-        width:40%;
-    }
-    .forms{
-        width:80%;
-        top:2rem;
-    }
-    
-    
 }
-@media only screen and (max-width:400px)
-{
 
-}
