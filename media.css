@@ -38,7 +38,7 @@
     }
     .forms{
         position: relative;
-        
+        width:100%;
         left:14rem;
     }
     .sec-row{
@@ -79,7 +79,7 @@
     }
     .forms{
         left:0rem;
-        width:50%;
+        width:100%;
         top:2rem;
         margin:auto;
         height: 60%;
